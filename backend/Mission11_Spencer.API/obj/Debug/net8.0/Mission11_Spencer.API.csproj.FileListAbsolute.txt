@@ -65,3 +65,4 @@
 /Users/ryanspencer/Downloads/Mission11_Spencer/backend/Mission11_Spencer.API/bin/Debug/net8.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/ryanspencer/Downloads/Mission11_Spencer/backend/Mission11_Spencer.API/bin/Debug/net8.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/ryanspencer/Downloads/Mission11_Spencer/backend/Mission11_Spencer.API/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/ryanspencer/Downloads/Mission11_Spencer/backend/Mission11_Spencer.API/obj/Debug/net8.0/Mission11_Spencer.API.sourcelink.json

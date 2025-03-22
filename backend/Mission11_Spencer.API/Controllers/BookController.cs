@@ -14,10 +14,24 @@ public class BookController : Controller
         _bookContext = temp;
     }
 
-    public IEnumerable<Book> Get()
+    public IActionResult Get(int pageSize = 5, int pageNum = 1)
     {
-        return _bookContext.Books.ToList();
+        // Skip records based on page number, and take the records based on page size
+        var books = _bookContext.Books
+            .Skip((pageNum - 1) * pageSize)  // Skip previous pages
+            .Take(pageSize)                 // Take the required number of books
+            .ToList();
+
+        var totalNumBooks = _bookContext.Books.Count();
+
+        var someObject = new
+        {
+            Books = books,
+            TotalNumBooks = totalNumBooks
+        };
+        return Ok(someObject);
     }
+
     
     
 }

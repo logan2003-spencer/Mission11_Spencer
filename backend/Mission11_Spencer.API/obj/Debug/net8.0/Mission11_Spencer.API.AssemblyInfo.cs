@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission11_Spencer.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83a84a40574c2d6c44ed1b9c7f953d7677f8d853")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission11_Spencer.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission11_Spencer.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
