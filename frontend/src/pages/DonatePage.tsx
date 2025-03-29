@@ -32,7 +32,14 @@ function DonatePage()
       </div>
 
 
-      <button onClick={() => navigate('/books')}>Go Back</button>
+      <button 
+  onClick={() => navigate('/books')} 
+  className="btn btn-secondary position-fixed bottom-0 end-0 m-4 rounded-3 p-3 shadow-lg d-flex align-items-center"
+>
+  <i className="bi bi-arrow-left-circle me-2"></i>
+  <span>Go Back</span>
+</button>
+
     
     </>
   )
