@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Mission11_Spencer.API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +15,13 @@ builder.Services.AddDbContext<BookContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("BookConnection")));
 
 
-builder.Services.AddCors();
+builder.Services.AddCors(options => 
+options.AddPolicy("AllowReactAppBlah", 
+policy => {
+    policy.AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader();
+}));
 
 var app = builder.Build();
 
@@ -25,7 +32,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(x => x.WithOrigins("http://localhost:3000"));
+app.UseCors("AllowReactAppBlah");
 
 app.UseHttpsRedirection();
 
