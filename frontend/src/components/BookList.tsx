@@ -36,6 +36,9 @@ function BookList({ selectedCategories }: { selectedCategories: string[] }) {
   if (error) return <p className="text-red-500">Error {error}</p>;
 
   const handleSort = () => {
+    if (sorted) return; // Prevent re-sorting if already sorted
+
+
     const sortedBooks = [...books].sort((a, b) => (a.title < b.title ? -1 : 1));
     setBooks(sortedBooks);
     setSorted(true);
