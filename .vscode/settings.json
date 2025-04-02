@@ -1,4 +1,0 @@
-{
-  "appService.defaultWebAppToDeploy": "undefined/subscriptions/1fb00ca2-34c7-40bb-b1ea-e58c7028992c/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/Mission12-Hiltons-Books",
-  "appService.deploySubpath": "backend/Mission11_Spencer.API/publish"
-}
