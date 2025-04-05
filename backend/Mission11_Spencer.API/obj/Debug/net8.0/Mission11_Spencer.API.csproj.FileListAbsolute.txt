@@ -67,3 +67,8 @@
 /Users/ryanspencer/Downloads/Mission11_Spencer/backend/Mission11_Spencer.API/obj/Debug/net8.0/Mission11_Spencer.API.genruntimeconfig.cache
 /Users/ryanspencer/Downloads/Mission11_Spencer/backend/Mission11_Spencer.API/obj/Debug/net8.0/ref/Mission11_Spencer.API.dll
 /Users/ryanspencer/Downloads/Mission11_Spencer/backend/Mission11_Spencer.API/bin/Debug/net8.0/Bookstore.sqlite
+/Users/ryanspencer/Downloads/Mission11_Spencer/backend/Mission11_Spencer.API/bin/Debug/net8.0/publish/web.config
+/Users/ryanspencer/Downloads/Mission11_Spencer/backend/Mission11_Spencer.API/bin/Debug/net8.0/publish/appsettings.Development.json
+/Users/ryanspencer/Downloads/Mission11_Spencer/backend/Mission11_Spencer.API/bin/Debug/net8.0/publish/appsettings.json
+/Users/ryanspencer/Downloads/Mission11_Spencer/backend/Mission11_Spencer.API/bin/Debug/net8.0/publish/Mission11_Spencer.API.deps.json
+/Users/ryanspencer/Downloads/Mission11_Spencer/backend/Mission11_Spencer.API/bin/Debug/net8.0/publish/Mission11_Spencer.API.runtimeconfig.json

@@ -46,7 +46,6 @@ function BookList({ selectedCategories }: { selectedCategories: string[] }) {
 
   return (
     <>
-      Parallax Section
       <div
         // style={{
         //   background:
