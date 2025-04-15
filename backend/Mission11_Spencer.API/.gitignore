@@ -1,13 +1,15 @@
-bin/
-obj/
+# Ignore build output directories
+backend/Mission11_Spencer.API/bin/
+backend/Mission11_Spencer.API/obj/
 
+# Ignore Visual Studio and Rider temporary files
 .vs/
-*.sudo/
-*.user/
+*.suo
+*.user
 *.sln.docstates
-
 .idea/
 *.DotSettings.user
 
+# Ignore log files and temporary files
 *.log
 *.tlog

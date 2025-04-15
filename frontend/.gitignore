@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+/bin
+backend/Mission11_Spencer.API/bin/
+backend/Mission11_Spencer.API/obj/
