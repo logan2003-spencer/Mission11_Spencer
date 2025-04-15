@@ -46,17 +46,16 @@ function BookList({ selectedCategories }: { selectedCategories: string[] }) {
 
   return (
     <>
-      {/* Parallax Section */}
       <div
-        style={{
-          background:
-            "url('https://source.unsplash.com/random/1920x1080') no-repeat center",
-          backgroundSize: "cover",
-          backgroundAttachment: "fixed",
-          color: "white",
-          textAlign: "center",
-          padding: "80px 20px",
-        }}
+        // style={{
+        //   background:
+        //     "url('https://source.unsplash.com/random/1920x1080') no-repeat center",
+        //   backgroundSize: "cover",
+        //   backgroundAttachment: "fixed",
+        //   color: "white",
+        //   textAlign: "center",
+        //   padding: "80px 20px",
+        // }}
       >
         <h1>Explore Our Books</h1>
       </div>
